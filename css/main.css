@@ -119,6 +119,9 @@ footer a:not(.nav-link) {
 @media (min-width: 48em) {
   .site-title {
     float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .site-nav {
     float: right;
